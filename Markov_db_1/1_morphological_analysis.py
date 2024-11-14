@@ -2,6 +2,10 @@
 # から引用,変更
 import MeCab
 import re
+import os
+
+# ディレクトリの変更
+os.chdir('/workspaces/Markov/Markov_db_1')
 
 text = open("./0_start.txt","r").read()
 

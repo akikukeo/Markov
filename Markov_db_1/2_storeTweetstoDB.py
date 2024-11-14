@@ -9,7 +9,7 @@ from tqdm import tqdm
 import os
 
 # ディレクトリの変更
-# os.chdir('/workspaces/Markov/Markov_db_1')
+os.chdir('/workspaces/Markov/Markov_db_1')
 
 def storeTweetstoDB():
     
