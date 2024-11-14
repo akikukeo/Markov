@@ -1,0 +1,2 @@
+mecab -d /usr/lib/x86_64-linux-gnu/mecab/dic/mecab-ipadic-neologd
+0から実行、3実行後にgenerated_tweets.txtに出力される

@@ -36,9 +36,9 @@ def generate_text(start_word, length=50):
         result.append(next_word)
         current_word = next_word
 
-        # 文の終わりを判定する条件
-        if next_word in ['。', '！', '？']:  # 文末の句読点で終了
-            break
+        # # 文の終わりを判定する条件
+        # if next_word in ['。', '！', '？']:  # 文末の句読点で終了
+        #     break
     
     # 空白を削除
     return ''.join(result)
